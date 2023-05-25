@@ -22,6 +22,7 @@ def main():
     skills = ['English', 'French', 'Python', 'SQL', 'MSOffice', 'Presentation', 'Communication']
     for skill in skills:
         print(skill_factory.create_skill(skill).about())
+    print('\n/nYou can now view a created table in MySQL :)')
 
 
 if __name__ == "__main__":
